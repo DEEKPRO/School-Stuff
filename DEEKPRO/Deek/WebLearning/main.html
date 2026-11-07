@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px 30px 10px 30px;
+            background: linear-gradient(to bottom, black, rebeccapurple);
+        }
+        h1 {
+            color: rgb(255, 255, 223);
+            margin-bottom: 0px;
+            text-align: center;
+        }
+        p {
+            color: blanchedalmond;
+            font-size: 16px;
+            margin-top: 10px;
+            text-align: auto;
+        }
+        img {
+            display: block;
+            margin: 5px auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 20px;
+        }
+        div {
+            text-align: center;
+        }
+        a {
+            color: beige;
+            text-decoration: none;
+            font-size: 24px;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+    </style>
+    <link rel="stylesheet" href="car.css">
+</head>
+<body>
+<h1>Cars</h1>
+<p>This is a simple page about cars.</p>
+<div class="slideshow-container">
+    <div class="mySlides fade">
+        <img src="img1.png" alt="Car 1">
+    </div>
+    <div class="mySlides fade">
+        <img src="img2.png" alt="Car 2">
+    </div>
+    <div class="mySlides fade">
+        <img src="img3.png" alt="Car 3">
+    </div>
+
+    <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+    <a class="next" onclick="moveSlide(1)">&#10095;</a>
+</div>
+<script src="car.js"></script>
+</body>
+</html>

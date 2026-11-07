@@ -1,0 +1,16 @@
+{
+  "python.defaultInterpreterPath": "C:/Python311/python.exe",
+  "python.languageServer": "Pylance",
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.completeFunctionParens": true,
+  "python.analysis.indexing": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+  "editor.suggest.showWords": true,
+  "editor.suggestSelection": "recentlyUsed",
+  "livePreview.defaultPreviewPath": "/DEEKPRO/Deek/WebLearning/main.html"
+}
